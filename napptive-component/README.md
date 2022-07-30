@@ -4,12 +4,6 @@
 
 Grafana - is the open source analytics & monitoring solution for every database.
 
-Grafana deployment with a single click in NAPPTIVE. Once registered on the platform you can deploy the application from the application catalog.
-
-## Requirements
-
- - Free account on [NAPPTIVE platform](https://napptive.com/)
-
 ## How to access to grafana
 
 Once the application has been deployed, open the public endpoint navigating through the web UI to select the application, selecting the Grafana component, and clicking on the associated Endpoint. Alternatively with the CLI use:
@@ -40,22 +34,3 @@ https://davmaio-grafana-<active-namespace>.apps.playground.napptive.dev/identity
 ## References
 * https://grafana.com/
 * https://grafana.com/docs/
-
-
-
-
-
-
-
-
-
-
-<!--    
-
-        playground login --patFile D:/Github/no-git/napptive-cli/test_pat.dat
-        kubectl --kubeconfig napptive-cli/napptive-kubeconfig create -f napptive-grafana/component/
-
-        playground catalog push davma-io/Grafana:v8.5 napptive-grafana/component/
-        playground catalog remove davma-io/Grafana:v1
-        
--->
