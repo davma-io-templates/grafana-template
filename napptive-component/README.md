@@ -16,10 +16,10 @@ playground apps open davmaio-grafana
 ```
 
 The davmaio-grafana instance automatically gets a public URL in the form of:
-
 ```
 https://davmaio-grafana-<active-namespace>.apps.playground.napptive.dev
 ```
+You can get the full link in endpoints inside component davmaio-grafana
 
 ## Admin area
 
@@ -42,7 +42,7 @@ https://davmaio-grafana-<active-namespace>.apps.playground.napptive.dev/identity
 </br>
 </br>
 
-![https://github.com/davma-io](https://davma.io/wp-content/uploads/2022/05/davma.io11.png)
+![https://github.com/davma-io](https://davma.io/wp-content/uploads/2022/05/davma.io6_-e1659187814635.png)
 </br>
 </br>
 </br>
