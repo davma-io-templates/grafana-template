@@ -1,8 +1,11 @@
 # davma.io Grafana
-
-> This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
+![Grafana](https://grafana.com/static/assets/internal/grafana_logo-web-white-text.svg)
 
 Grafana - is the open source analytics & monitoring solution for every database.
+
+[![Update application to Napptive Playground](https://github.com/davma-io-templates/grafana-template/actions/workflows/napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/grafana-template/actions/workflows/napptive-push.yml)
+
+> This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
 
 ## How to access to grafana
 
@@ -34,3 +37,12 @@ https://davmaio-grafana-<active-namespace>.apps.playground.napptive.dev/identity
 ## References
 * https://grafana.com/
 * https://grafana.com/docs/
+
+</br>
+</br>
+</br>
+
+![https://github.com/davma-io](https://davma.io/wp-content/uploads/2022/05/davma.io11.png)
+</br>
+</br>
+</br>
