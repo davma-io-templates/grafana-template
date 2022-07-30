@@ -1,7 +1,7 @@
 apiVersion: core.napptive.com/v1alpha1
 kind: ApplicationMetadata
 name: "GRAFANA"
-version: 8.5.5
+version: latest
 description: Grafana is the open source analytics & monitoring solution for every database.
 keywords:
   - "Grafana"

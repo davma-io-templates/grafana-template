@@ -1,6 +1,0 @@
-apiVersion: core.oam.dev/v1alpha2
-kind: HealthScope
-metadata:
-  name: davmaio-grafana-health
-spec:
-  workloadRefs: []
