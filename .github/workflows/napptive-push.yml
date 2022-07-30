@@ -2,21 +2,13 @@ name: Push an application to Napptive Playground
 on: [push]
 jobs:
   deploy:
-    name: Catalog deploy
+    name: Upload new version to the catalog
     runs-on: ubuntu-latest
     steps:
-      name: Update the application in the catalog
-on: workflow_dispatch
-env:
-  PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT}}
-jobs:
-  build:
-    name: Push new version
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2        
-      - name: Push the application on the catalog
-        uses: napptive-actions/catalog-push-action@v3.0.1
+      - uses: actions/checkout@v2
+      - uses: napptive-actions/catalog-push-action@v3.0.1
+        env:
+          PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
         with:
           applicationPath: ./napptive-component/
           namespace: "davma-io"
