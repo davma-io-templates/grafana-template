@@ -1,6 +1,6 @@
 # davma.io Grafana
 
-> This application is for development only, it is strongly recommended not to use it in production environments.
+> This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
 
 Grafana - is the open source analytics & monitoring solution for every database.
 

@@ -1,4 +1,4 @@
-name: Push an application to Napptive Playground
+name: Update application to Napptive Playground
 on: [push]
 jobs:
   deploy:
