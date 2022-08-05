@@ -1,5 +1,5 @@
-# Install Grafana Loki with Docker Compose
-You can install Grafana Loki and Promtail with Docker or Docker Compose if you are evaluating, testing, or developing Loki. For production, we recommend installing with Tanka or Helm.
+# Deploy Grafana Loki with Docker Compose
+You can install Grafana Loki and Promtail with Docker or Docker Compose if you are evaluating, testing, or developing.
 
 The configuration acquired with these installation instructions run Loki as a single binary.
 
