@@ -1,5 +1,7 @@
 # Grafana
 
+__This repository is deprecated. You can find the latest versions for napptive playground in the following link: [https://github.com/davma-io-templates/napptive-template](https://github.com/davma-io-templates/napptive-template)__
+
 Grafana - is the open source analytics & monitoring solution for every database.
 
 ## Requirements
